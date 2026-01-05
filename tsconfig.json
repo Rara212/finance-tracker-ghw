@@ -1,4 +1,11 @@
 {
   "files": [],
+<<<<<<< Updated upstream
   "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }]
+=======
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+>>>>>>> Stashed changes
 }
