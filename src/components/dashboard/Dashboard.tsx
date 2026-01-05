@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./Dashboard.module.css";
 
-const currencies = ["USD", "EUR", "GBP", "INR"];
+const currencies = ["USD", "EUR", "GBP", "IDR"];
 
 const Dashboard = () => {
   const [selectedCurrency, setSelectedCurrency] = useState<string>("USD");
