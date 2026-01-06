@@ -8,8 +8,8 @@ export type AccountSubType =
     | "savings_emergency"
     | "savings_goal"
     | "investment_stocks"
-    | "investment_cypto"
-    | "innvestment_mutual_funds"
+    | "investment_crypto"
+    | "investment_mutual_funds"
     | "checking_personal"
     | "checking_business";
 
@@ -109,7 +109,7 @@ export type Goal = {
     targetAmount: number;
     currentAmount?: number;
     targetDate?: string;
-    accountId: string;
+    accountId?: string;
     createdAt: string;
 };
 
