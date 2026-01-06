@@ -24,7 +24,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-<<<<<<< Updated upstream
   "include": ["eslint.config.js", "./src/**/*", "vite.config.ts"]
 =======
   "include": ["src"]
