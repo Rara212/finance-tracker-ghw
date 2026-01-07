@@ -29,7 +29,7 @@ export type Transaction = {
     category: string;
     accountId: string;
     currencyId: string;
-    isProjected: boolean;
+    isProjected: false;
 };
 
 export type ProjectedTransaction = {
